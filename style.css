@@ -1,0 +1,128 @@
+body{
+    background-color: rgb(175, 54, 54);
+    color: #0f121e;
+}
+
+.conteiner{
+    max-width: 1000px;
+    margin: auto;
+}
+
+.menu {
+    overflow: hidden;
+    background-color: rgb(112, 105, 105);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu a {
+    float: left;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.hiden {
+    float: left;
+    overflow: hidden;
+}
+
+.hidenbottom .hiden{
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: rgb(0, 0, 0);
+    padding: 14px 10px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.menu a:hover, .hidenbottom:hover .hiden{
+    background-color: red;
+}
+
+.drop_hidenBottom {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.drop_hidenBottom a {
+    float: none;
+    color: rgb(0, 0, 0);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.drop_hidenBottom a:hover {
+    background-color: #ddd;
+}
+
+.hidenbottom:hover .drop_hidenBottom {
+    display: block;
+}
+
+/*  ДЛЯ ЯЗЫКА      */
+
+.language {
+    overflow: hidden;
+    background-color: rgb(112, 105, 105);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.lan {
+    float: left;
+    overflow: hidden;
+}
+
+.language .lan{
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: rgb(0, 0, 0);
+    padding: 14px 10px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.menu a:hover, .language:hover .lan{
+    background-color: red;
+}
+
+.hiden_lan {
+    display: none;
+    position: absolute;
+    
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+   
+}
+
+.hiden_lan a {
+    float: none;
+    color: rgb(0, 0, 0);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    
+}
+
+.hiden_lan a:hover {
+    background-color: rgb(255, 0, 0);
+}
+
+.language:hover .hiden_lan {
+    display: block;
+    
+}
